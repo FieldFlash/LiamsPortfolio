@@ -1,0 +1,26 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ProjectCard from "../components/ProjectCard.astro";
+---
+
+<Layout title="Projects — Liam">
+  <div class="container">
+    <h1 style="margin:0 0 1rem">Projects</h1>
+    <div class="grid">
+      <ProjectCard 
+        title="Farming Frenzy Game"
+        description="A Farming game written in java for my ICS4U Final Project"
+        tech="Java, Swing"
+        link="https://github.com/FieldFlash/Farming-Game"
+      />
+    </div>
+    <div class="grid">
+        <ProjectCard
+        title="pyVersus Tag"
+        description="An online multiplayer proof-of-concept tag game written in python (Pygame) for the ICS3U final project"
+        tech="Python, Sockets, pygame"
+        link="https://github.com/FieldFlash/pyVersus-tag"
+        />
+    </div>
+  </div>
+</Layout>
